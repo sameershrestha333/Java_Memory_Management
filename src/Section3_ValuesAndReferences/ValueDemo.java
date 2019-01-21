@@ -8,7 +8,7 @@ public class ValueDemo {
 
     }
 
-    private static void calculate(int localValue) {
-        localValue = localValue * 4;
+    private static void calculate(int localValueParam) {
+        localValueParam = localValueParam * 4;
     }
 }
