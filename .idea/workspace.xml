@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8ab9d11-fc0e-48aa-8b57-ebf766a26764" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Section3_ValuesAndReferences/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section3_ValuesAndReferences/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section3_ValuesAndReferences/StringTrick.java" afterDir="false" />
+    <list default="true" id="b8ab9d11-fc0e-48aa-8b57-ebf766a26764" name="Default" comment="Simple String trick memory exercise">
+      <change afterPath="$PROJECT_DIR$/src/garbagecollection/string/StringPoolsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Memory_Management/Section3_ValuesAndReferences/ValueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Memory_Management/Section3_ValuesAndReferences/ValueDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Section3_ValuesAndReferences/ValueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section3_ValuesAndReferences/ValueDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +18,21 @@
       <file leaf-file-name="ValueDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Section3_ValuesAndReferences/ValueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <state relative-caret-position="220">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding>
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringPoolsDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/garbagecollection/string/StringPoolsDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -37,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringTrick.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringTrick.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Section3_ValuesAndReferences/StringTrick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="220">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -71,9 +80,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Section3_ValuesAndReferences/ValueDemo.java" />
         <option value="$PROJECT_DIR$/src/Section3_ValuesAndReferences/Main.java" />
         <option value="$PROJECT_DIR$/src/Section3_ValuesAndReferences/StringTrick.java" />
+        <option value="$PROJECT_DIR$/src/Section3_ValuesAndReferences/ValueDemo.java" />
+        <option value="$PROJECT_DIR$/src/garbagecollection/string/StringPoolsDemo.java" />
       </list>
     </option>
   </component>
@@ -153,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringTrick">
+  <component name="RunManager" selected="Application.StringPoolsDemo">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Section3_ValuesAndReferences.Main" />
       <module name="Java_Memory_Management" />
@@ -161,6 +171,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Section3_ValuesAndReferences.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StringPoolsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="garbagecollection.string.StringPoolsDemo" />
+      <module name="Java_Memory_Management" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="garbagecollection.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,9 +253,11 @@
       <item itemvalue="Application.ValueDemo" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.StringTrick" />
+      <item itemvalue="Application.StringPoolsDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringPoolsDemo" />
         <item itemvalue="Application.StringTrick" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ValueDemo" />
@@ -253,7 +276,7 @@
       <updated>1547958731934</updated>
       <workItem from="1547958740221" duration="104000" />
       <workItem from="1547959128465" duration="1066000" />
-      <workItem from="1547960249719" duration="1408000" />
+      <workItem from="1547960249719" duration="3396000" />
     </task>
     <task id="LOCAL-00001" summary="git hub config changes">
       <created>1547960358800</created>
@@ -262,11 +285,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547960358800</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Simple String trick">
+      <created>1548075835523</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548075835523</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Simple String trick memory exercise">
+      <created>1548076234412</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548076234412</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2578000" />
+    <option name="totallyTimeSpent" value="4566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -274,7 +311,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.123931624" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -312,20 +349,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git hub config changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="git hub config changes" />
+    <MESSAGE value="Simple String trick" />
+    <MESSAGE value="Simple String trick memory exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple String trick memory exercise" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Section3_ValuesAndReferences/ValueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section3_ValuesAndReferences/ValueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -338,8 +374,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Section3_ValuesAndReferences/StringTrick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section3_ValuesAndReferences/ValueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/garbagecollection/string/StringPoolsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
